@@ -37,7 +37,7 @@ https://ocr-app-three.vercel.app/
 
 ---
 
-##🖥️ Usage
+## 🖥️ Usage
 
 Open the app in your browser.
 
@@ -49,7 +49,7 @@ View extracted information: Name, Email, Phone, Experience, Education, Skills, L
 
 Copy the text using the Copy button.
 
-##📂 Project Structure
+## 📂 Project Structure
 
 src/components/OCRReader.tsx → OCR for images using Tesseract.js
 
@@ -59,7 +59,7 @@ src/i18n/ → Multi-language configuration
 
 src/styles/ → TailwindCSS theme and styles
 
-##⚡ Future Improvements
+## ⚡ Future Improvements
 
 Auto-detect CV language.
 
