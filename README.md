@@ -4,6 +4,7 @@ A modern **React + TypeScript** application for extracting information from **PD
 The app uses **pdf.js** for text extraction and provides a clean **UI/UX** with **dark mode** and **multi-language support**.  
 
 ---
+https://ocr-app-three.vercel.app/
 
 ## 🚀 Features  
 - 📂 Upload and parse **PDF resumes**.  
@@ -36,10 +37,34 @@ The app uses **pdf.js** for text extraction and provides a clean **UI/UX** with 
 
 ---
 
-## 📦 Installation  
+##🖥️ Usage
 
-Clone the repository:
+Open the app in your browser.
 
-```bash
-git clone https://github.com/your-username/ocr-app.git
-cd ocr-app
+Upload a PDF or image CV.
+
+Wait for OCR to process the file.
+
+View extracted information: Name, Email, Phone, Experience, Education, Skills, Links, and full text.
+
+Copy the text using the Copy button.
+
+##📂 Project Structure
+
+src/components/OCRReader.tsx → OCR for images using Tesseract.js
+
+src/components/CVExtractor.tsx → PDF processing, OCR, and structured info extraction
+
+src/i18n/ → Multi-language configuration
+
+src/styles/ → TailwindCSS theme and styles
+
+##⚡ Future Improvements
+
+Auto-detect CV language.
+
+Export extracted data to JSON or CSV.
+
+Improve regex patterns for better accuracy.
+
+Add user authentication to save CVs.
