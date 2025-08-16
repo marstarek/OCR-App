@@ -53,12 +53,12 @@ export default function CVExtractor() {
       const emailRegex = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i;
       const phoneRegex = /(\+?\d{1,3}[-.\s]?)?\d{10,15}/;
  // 🔍 Regex patterns
-     const  experience= /(Experience|Work Experience|Employment)[\s\S]*?(?=(Education|Skills|Training|Soft Skills|Personal|$))/i
-     const education= /(Education|Qualifications)[\s\S]*?(?=(Experience|Skills|Training|Soft Skills|Personal|$))/i
-      const skills= /(Skills|Technical Skills)[\s\S]*?(?=(Experience|Education|Training|Soft Skills|Personal|$))/i
-    const  training= /(Training|Certifications)[\s\S]*?(?=(Experience|Education|Skills|Soft Skills|Personal|$))/i
-    const  softSkills= /(Soft Skills|Languages|Interpersonal)[\s\S]*?(?=(Experience|Education|Skills|Training|Personal|$))/i
-    const  personal= /(Personal Information|Details)[\s\S]*?(?=(Experience|Education|Skills|Training|Soft Skills|$))/i
+    //  const  experience = /(Experience|Work Experience|Employment)[\s\S]*?(?=(Education|Skills|Training|Soft Skills|Personal|$))/i
+    //  const education= /(Education|Qualifications)[\s\S]*?(?=(Experience|Skills|Training|Soft Skills|Personal|$))/i
+    //   const skills= /(Skills|Technical Skills)[\s\S]*?(?=(Experience|Education|Training|Soft Skills|Personal|$))/i
+    // const  training= /(Training|Certifications)[\s\S]*?(?=(Experience|Education|Skills|Soft Skills|Personal|$))/i
+    // const  softSkills= /(Soft Skills|Languages|Interpersonal)[\s\S]*?(?=(Experience|Education|Skills|Training|Personal|$))/i
+    // const  personal= /(Personal Information|Details)[\s\S]*?(?=(Experience|Education|Skills|Training|Soft Skills|$))/i
     
       const linkRegex = /(https?:\/\/[^\s]+)/gim;
 
