@@ -1,0 +1,9 @@
+{
+  "welcome": "Welcome",
+  "nametitle": "OCR App",
+  "para": "Extract text easily from images.",
+  "ocrToolsTitle": "Welcome to OCR Tools",
+  "arabicExtractor": "📖 Arabic Text Extractor",
+  "englishExtractor": "📘 English Text Extractor",
+  "cvExtractor": "📄 CV Info Extractor"
+}
